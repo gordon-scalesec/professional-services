@@ -53,9 +53,6 @@ sudo apt-get install -y build-essential python-dev python-pip ipython python-set
 # hack, remove existing ansible to resolve a bug
 sudo rm -rf /usr/local/lib/python2.7/dist-packages/ansible*
 
-# TODO: Add Google CLI stuff
-# sudo pip install awscli con-fu netaddr ansible==2.2
-
 # Update to Linux HWE/LTS to reolve Intel CVEs
 # //TODO: test this, is it still needed?
 # https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/SpectreAndMeltdown
